@@ -7,6 +7,7 @@ df = pd.read_pickle('my_dataframe.pickle')
 
 
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     
