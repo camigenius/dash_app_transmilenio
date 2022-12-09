@@ -7,7 +7,7 @@ df = pd.read_pickle('my_dataframe.pickle')
 
 
 app = Dash(__name__)
-server = app.server
+server = app.server # this line of code is only used if the application is deployed in https://dashboard.render.com/
 
 app.layout = html.Div([
     
